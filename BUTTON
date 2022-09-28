@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<style type="text/css">
+      
+   </style>
+    </head>
+    <script language="javascript">
+        function r()
+        {
+            document.bgColor="red";
+
+        }
+        function b()
+        {
+            document.bgColor="alert";
+        
+        }
+        function y()
+        {
+            document.bgColor="blue";
+        }
+        function getAge(age) {
+         var fullName = "John Doe";
+         // the fullName variable can be used here
+         document.getElementById("demo").innerHTML =
+         fullName + " is " + age + " years old."
+      }
+
+        </script>
+
+    <body>
